@@ -1,10 +1,10 @@
-﻿namespace Url.Domain.Entities;
-﻿using System.Runtime.InteropServices.Marshalling;
+﻿﻿using System.Runtime.InteropServices.Marshalling;
+namespace Url.Domain.Entities;
 using System.Text.RegularExpressions;
 
-public class Url : Entity
+public class UrlEntity : Entity
 {
-    public Url(
+    public UrlEntity(
         Guid id,
         string longUrl,
         string shortUrl,

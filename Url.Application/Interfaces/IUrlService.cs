@@ -1,7 +1,6 @@
-﻿using Url.Application.DTOs;
-
-namespace Url.Application.Interfaces;
-using Domain.Entities;
+﻿namespace Url.Application.Interfaces;
+using Url.Application.DTOs;
+using Url.Domain.Entities;
 public interface IUrlService
 {
     Task<IEnumerable<Url?>> ListAllUrls();
